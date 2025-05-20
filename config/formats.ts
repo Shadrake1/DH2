@@ -19,6 +19,42 @@ The column value will be ignored for repeat sections.
 
 export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
+	///////////////////// Vtubers Only ////////////////////////////
+	///////////////////////////////////////////////////////////////
+	{
+		section: "Vtubers Only",
+		column: 1,
+		// name: "vtubersonly",
+	},
+	{
+		name: "[Gen 9] Vtubers",
+		desc: 'bare bones micrometa',
+		mod: 'vtubers',
+		ruleset: [
+		'Team Preview', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Camomons Mod',
+		],
+		banlist: ['All Items', 'All Abilities'],
+		unbanlist: [
+		'Pinch Berry', 'Tsersi Berry', 'Leftovers', 'Silk Scarf', 'Charcoal', 'Mystic Water', 'Miracle Seed', 'Magnet', 'Never-Melt Ice', 'Black Belt', 'Poison Barb',
+		'Soft Sand', 'Sharp Beak', 'Twisted Spoon', 'Silver Powder', 'Hard Stone', 'Spell Tag', 'Dragon Fang', 'Black Glasses', 'Metal Coat', 'Fairy Feather', 'Muscle Band',
+		'Wise Glasses', 'Exchanger', 'Focus Sash',
+		
+		'Desperation', 'Last Stand', 'Appraisal', 'Rejuvenate', 'Recycler', 'Somewhat Reckless', 'Tinted Tactics', 'Intimidate', 'Sceptic',
+		],
+		onValidateTeam(team, format) {
+			/**@type {{[k: string]: true}}*/
+			let speciesTable = {};
+			let allowedTiers = ['Vtuber'];
+			for (const set of team) {
+				let template = this.dex.species.get(set.species);
+				if (!allowedTiers.includes(template.tier)) {
+					return [set.species + ' is not in Bare Bones.'];
+				}
+			}
+		}
+  },
+
+	///////////////////////////////////////////////////////////////
 	///////////////////// Gen 9 Pet Mods //////////////////////////
 	///////////////////////////////////////////////////////////////
 	{
@@ -1693,7 +1729,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Trainer Support",
 		mod: 'trainersupport',
-		ruleset: ['Standard', 'Trainer Support Rule', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		ruleset: ['Standard', 'Trainer Support Rule'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 	},
 	{
@@ -2755,7 +2791,7 @@ export const Formats: FormatList = [
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
 			let speciesTable = {};
-			let allowedTiers = ['bbones'];
+			let allowedTiers = ['Vtuber'];
 			for (const set of team) {
 				let template = this.dex.species.get(set.species);
 				if (!allowedTiers.includes(template.tier)) {
