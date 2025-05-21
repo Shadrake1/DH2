@@ -9,7 +9,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Download", 1: "Competitive", H: "Soul-Heart" },
 		heightm: 1.43,
 		weightkg: 0.01,
-		color: "Yellow",
 	},
 	evilneuro: {
 		num: -1001,
@@ -20,7 +19,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Download", 1: "Dark Aura", H: "Full Metal Body" },
 		heightm: 1.43,
 		weightkg: 0.01,
-		color: "Red",
 	},
 	filian: {
 		num: -1002,
@@ -31,7 +29,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Guts", 1: "Hustle", H: "Reckless" },
 		heightm: 1.53,
 		weightkg: 62.01,
-		color: "White",
 	},
 	camila: {
 		num: -1003,
@@ -42,7 +39,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Prankster", 1: "Pickpocket", H: "Simple" },
 		heightm: 1.53,
 		weightkg: 65.05,
-		color: "Pink",
 	},
 	ellieminibot: {
 		num: -1004,
@@ -53,7 +49,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Steel Worker", 1: "Prism Armor", H: "Technician" },
 		heightm: 1.50,
 		weightkg: 70.05,
-		color: "White",
 	},
 	cerber: {
 		num: -1005,
@@ -64,7 +59,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Friend Guard", 1: "Guard Dog", H: "Strong Jaw" }, //Vital Spirit?
 		heightm: 1.30,
 		weightkg: 50.05,
-		color: "Yellow",
 	},
 	fallenshadow: {
 		num: -1006,
@@ -75,7 +69,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Cursed Body", 1: "Perish Body", H: "Shadow Shield" },
 		heightm: 1.10,
 		weightkg: 40.00,
-		color: "Purple",
 	},
 	airys: {
 		num: -1007,
@@ -86,7 +79,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Unaware", 1: "Moody", H: "Neuroforce" },
 		heightm: 1.40,
 		weightkg: 0.01,
-		color: "Yellow",
 	},
 	anny: {
 		num: -1008,
@@ -97,7 +89,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Parental Bond", 1: "Fur Coat", H: "Unburden" },
 		heightm: 1.41,
 		weightkg: 66.00,
-		color: "White",
 	},
 	shylily: {
 		num: -1009,
@@ -108,7 +99,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Immunity", 1: "Drizzle", H: "Liquid Voice" },
 		heightm: 1.45,
 		weightkg: 55.00,
-		color: "Blue",
 	},
 	gawrgura: {
 		num: -1010,
@@ -119,7 +109,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Atlantean Rage", 1: "Swift Swim", H: "Strong Jaw" }, //Atlantean Rage turns into Gura-Primal upon KOing an opponent
 		heightm: 1.05,
 		weightkg: 32.00,
-		color: "Blue",
 		otherFormes: ["Gura-Primal"],
 	},
 	guraprimal: {
@@ -133,7 +122,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Atlantean Rage"},
 		heightm: 1.05,
 		weightkg: 32.00,
-		color: "Red",
 		requiredAbility: "Atlantean Rage",
 		battleOnly: "Gawr Gura",
 	},
@@ -146,7 +134,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Mother Nature", 1: "Natural Cure", H: "Grassy Surge" }, //Mother Nature doubles defense in sun (of all grass types?)
 		heightm: 1.45,
 		weightkg: 42.00,
-		color: "Green",
 	},
 	hakosbaelz: {
 		num: -1012,
@@ -157,7 +144,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Chaos Incarnation", 1: "Illusion", H: "Super Luck" }, //Chaos Incarnation grants random ability on switch-in (minus wonder guard & transformations)
 		heightm: 1.05,
 		weightkg: 32.00,
-		color: "Red",
 	},
 	chiurunika: {
 		num: -1013,
@@ -168,7 +154,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Cute Charm", 1: "Magic Bounce", H: "Misty Surge" },
 		heightm: 1.00,
 		weightkg: 30.00,
-		color: "White",
 	},
 	moricaliope: {
 		num: -1014,
@@ -179,7 +164,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Sharpness", 1: "Infiltrator", H: "Soul Reaper" },//Aftermath? Mold Breaker? Punk Rock? Justified? Soul Reaper has a x% chance to instakill (x500 damage)
 		heightm: 1.60,
 		weightkg: 60.00,
-		color: "Red",
 	},
 	laynalazar: {
 		num: -1015,
@@ -190,7 +174,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: " ", 1: " ", H: " " },
 		heightm: 1.70,
 		weightkg: 75.05,
-		color: "Black",
 	},
 	haachama: {
 		num: -1016,
@@ -202,7 +185,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		heightm: 1.30,
 		weightkg: 55.05,
 		requiredItem: "Spider Pot",
-		color: "Black",
 	},
 	akaihaato: {
 		num: -1017,
@@ -213,7 +195,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Magic Guard", 1: "Fairy Aura", H: "Pixelate" },
 		heightm: 1.30,
 		weightkg: 55.05,
-		color: "Red",
 	},
 	inugamikorone: {
 		num: -1018,
@@ -224,7 +205,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Vital Spirit", 1: "Iron Fist", H: " " },
 		heightm: 1.30,
 		weightkg: 55.05,
-		color: "Brown",
 	},
 	ina: {
 		num: -1019,
@@ -235,7 +215,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Psychic Surge", 1: "Mold breaker", H: "Vessel of Ruin" },
 		heightm: 1.50,
 		weightkg: 90.05,
-		color: "Purple",
 	},
 	takanashikiara: {
 		num: -1020,
@@ -246,7 +225,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Regenerator", 1: "Flame Body", H: "Drought" },
 		heightm: 1.50,
 		weightkg: 90.05,
-		color: "Purple",
 	},
 	minikomew: {
 		num: -1021,
@@ -257,7 +235,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Adaptability", 1: "Tinted Lens", H: "Costar" },
 		heightm: 1.10,
 		weightkg: 45.00,
-		color: "Yellow",
 	},
 	toma: {
 		num: -1022,
@@ -268,7 +245,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: " ", 1: " ", H: " " },
 		heightm: 1.10,
 		weightkg: 45.00,
-		color: "Yellow",
 	},
 	sana: {
 		num: -1023,
@@ -279,7 +255,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Gravitational Force", 1: "Pressure", H: "Teraform Zero" }, //Gravitational force, summons gravity on switch-in
 		heightm: 500.00,
 		weightkg: 2000.00,
-		color: "Purple",
 	},
 	kronii: {
 		num: -1024,
@@ -290,7 +265,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Temporal Force", 1: "Pressure", H: "Serene Grace" }, //Temporal force, summons trick room on switch-in
 		heightm: 1.70,
 		weightkg: 60.00,
-		color: "Blue",
 	},
 	nanashimumei: {
 		num: -1025,
@@ -301,7 +275,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Repopulate", 1: "Synchronize", H: "Aerilate" }, //Repopulate does a leftovers effect
 		heightm: 1.70,
 		weightkg: 60.00,
-		color: "Brown",
 	},
 	usadapekora: {
 		num: -1026,
@@ -312,7 +285,6 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Wimp Out", 1: " ", H: " " },
 		heightm: 1.70,
 		weightkg: 60.00,
-		color: "Orange",
 	},
 	fuwamoco: {
 		num: -1019,
@@ -323,6 +295,5 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		abilities: { 0: "Twin Sync", 1: "Guard Dog", H: " " },//Twin sync multiplies their damage by 0.75x, but all attacks hit twice
 		heightm: 1.40,
 		weightkg: 70.00,
-		color: "Pink",
 	},
 }
