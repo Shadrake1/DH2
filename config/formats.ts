@@ -31,7 +31,7 @@ export const Formats: FormatList = [
 		desc: 'vtubers',
 		mod: 'vtubers',
 		ruleset: [
-		'Team Preview', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod',
+		'Team Preview', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
 		],
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
