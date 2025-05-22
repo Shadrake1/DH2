@@ -27,7 +27,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
-	anny: {
+	annytf: {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
@@ -75,7 +75,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
-	ina: {
+	ninomaeina'nis: {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
@@ -91,11 +91,11 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
-	sana: {
+	tsukomosana: {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
-	kronii: {
+	ourokronii: {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},

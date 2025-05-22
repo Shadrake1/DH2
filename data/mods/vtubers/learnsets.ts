@@ -278,7 +278,7 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			allyswitch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			assist: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			aurasphere: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			automize: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			autotomize: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			bugbuzz: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			charge: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			chargebeam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
@@ -501,7 +501,7 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			amnesia: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			ancientpower: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			astonish: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			automize: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			autotomize: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			bounce: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			branchpoke: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			celebrate: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
@@ -563,7 +563,7 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			zapcannon: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
-	anny: { //72
+	annytf: { //72
 		learnset: {
 			fbomb: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			alluringvoice: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
@@ -1241,7 +1241,7 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			wildcharge: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
-	ina: { //67
+	ninomaeina'nis: { //67
 		learnset: {
 			rapidspin: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			alluringvoice: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
@@ -1466,7 +1466,7 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 
 		},
 	},
-	sana: { //57
+	tsukomosana: { //57
 		learnset: {
 			ancientpower: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			aurasphere: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
@@ -1528,7 +1528,7 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			zenheadbutt: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
-	kronii: { //53
+	ourokronii: { //53
 		learnset: {
 			timestop: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			roaroftime: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],

@@ -28,7 +28,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 9] Vtubers",
-		desc: 'bare bones micrometa',
+		desc: 'vtubers',
 		mod: 'vtubers',
 		ruleset: [
 		'Team Preview', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod',

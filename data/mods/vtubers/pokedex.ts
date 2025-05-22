@@ -80,7 +80,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		heightm: 1.40,
 		weightkg: 0.01,
 	},
-	anny: {
+	annytf: {
 		num: -1008,
 		name: "Annytf",
 		types: ["Normal"],
@@ -206,7 +206,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		heightm: 1.30,
 		weightkg: 55.05,
 	},
-	ina: {
+	ninomaeina'nis: {
 		num: -1019,
 		name: "Ninomae Ina'Nis",
 		types: ["Psychic", "Dark"],
@@ -246,7 +246,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		heightm: 1.10,
 		weightkg: 45.00,
 	},
-	sana: {
+	tsukomosana: {
 		num: -1023,
 		name: "Tsukomo Sana",
 		types: ["Psychic", "Rock"],
@@ -256,7 +256,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		heightm: 500.00,
 		weightkg: 2000.00,
 	},
-	kronii: {
+	ourokronii: {
 		num: -1024,
 		name: "Ouro Kronii",
 		types: ["Psychic", "Steel"],
@@ -281,7 +281,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		name: "Usada Pekora",
 		types: ["Ground", "Normal"], //idk man
 		gender: "F",
-		baseStats: { hp: 56, atk: 104, def: 40, spa: 75, spd: 70, spe: 145 },
+		baseStats: { hp: 56, atk: 104, def: 40, spa: 85, spd: 70, spe: 135 },
 		abilities: { 0: "Wimp Out", 1: " ", H: " " },
 		heightm: 1.70,
 		weightkg: 60.00,
