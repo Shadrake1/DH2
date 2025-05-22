@@ -43,7 +43,6 @@ export const Formats: FormatList = [
 					return [set.species + ' is not in Vtubers.'];
 				}
 			}
-		}
 	}, // <- Added missing closing brace and comma here
 	///////////////////////////////////////////////////////////////
 	///////////////////// Gen 9 Pet Mods //////////////////////////
