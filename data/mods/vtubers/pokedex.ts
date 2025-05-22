@@ -206,9 +206,9 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		heightm: 1.30,
 		weightkg: 55.05,
 	},
-	ninomaeina'nis: {
+	ninomaeinanis: {
 		num: -1019,
-		name: "Ninomae Ina'Nis",
+		name: "Ninomae InaNis",
 		types: ["Psychic", "Dark"],
 		gender: "F",
 		baseStats: { hp: 55, atk: 75, def: 90, spa: 145, spd: 95, spe: 60 },

@@ -1,7 +1,7 @@
 export const Moves: { [k: string]: ModdedMoveData } = {
 	multiheart: {
 		num: 999,
-						shortDesc: "Hits 1-7 times."
+						shortDesc: "Hits 1-7 times.",
 		accuracy: 100,
 		basePower: 20,
 		category: "Special",
@@ -22,7 +22,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	harpooning: {
 		num: 998,
-						shortDesc: "Prevents the target from switching out."
+						shortDesc: "Prevents the target from switching out.",
 		accuracy: 75,
 		basePower: 95,
 		category: "Physical",
@@ -41,7 +41,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	harpoonstorm: {
 		num: 997,
-						shortDesc: "Lowers the user's attack by 2 stages after use."
+						shortDesc: "Lowers the user's attack by 2 stages after use.",
 		accuracy: 90,
 		basePower: 130,
 		category: "Physical",
@@ -61,7 +61,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	metalpipes: {
 		num: 996,
-						shortDesc: "30% chance to make the target flinch."
+						shortDesc: "30% chance to make the target flinch.",
 		accuracy: 95,
 		basePower: 80,
 		category: "Physical",
@@ -78,7 +78,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	gaslight: {
 		num: 996,
-						shortDesc: "60% chance to confuse the target."
+						shortDesc: "60% chance to confuse the target.",
 		accuracy: 85,
 		basePower: 60,
 		category: "Special",
@@ -95,7 +95,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	fbomb: {
 		num: 995,
-						shortDesc: "50% chance to lower the target's spdef by 2 stages."
+						shortDesc: "50% chance to lower the target's spdef by 2 stages.",
 		accuracy: 95,
 		basePower: 60,
 		category: "Special",
@@ -119,7 +119,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	spidercooking: {
 		num: 994,
-						shortDesc: "30% chance to poison the target."
+						shortDesc: "30% chance to poison the target.",
 		accuracy: 95,
 		basePower: 90,
 		category: "Physical",
@@ -136,7 +136,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	timestop: {
 		num: 993,
-						shortDesc: "Freezes the target."
+						shortDesc: "Freezes the target.",
 		accuracy: 50,
 		basePower: 0,
 		category: "Status",
@@ -151,7 +151,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	karaoke: {
 		num: 992,
-						shortDesc: "Raises the user's attack and special attack by 1; lowers enemy's attack."
+						shortDesc: "Raises the user's attack and special attack by 1; lowers enemy's attack.",
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",

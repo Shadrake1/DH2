@@ -1241,7 +1241,7 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			wildcharge: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
-	ninomaeina'nis: { //67
+	ninomaeinanis: { //67
 		learnset: {
 			rapidspin: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			alluringvoice: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],

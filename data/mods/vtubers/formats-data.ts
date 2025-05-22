@@ -75,7 +75,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
-	ninomaeina'nis: {
+	ninomaeinanis: {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
