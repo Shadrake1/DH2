@@ -1673,4 +1673,10 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 
 		},
 	},
+	dokibird: {
+		learnset: {
+
+
+		},
+	},
 }

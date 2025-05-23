@@ -111,4 +111,8 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
+	dokibird: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
 }
