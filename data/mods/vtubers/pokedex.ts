@@ -282,7 +282,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		types: ["Ground", "Normal"], //idk man
 		gender: "F",
 		baseStats: { hp: 56, atk: 104, def: 40, spa: 95, spd: 70, spe: 135 },
-		abilities: { 0: "Wimp Out", 1: " ", H: " " },
+		abilities: { 0: "Wimp Out", 1: "Infiltrator", H: "Pickpocket" }, //Stakeout, Overcoat, Prankster?
 		heightm: 1.70,
 		weightkg: 60.00,
 	},
@@ -297,7 +297,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		weightkg: 70.00,
 	},
 	dokibird: {
-        num: -726,
+        num: -1028,
         name: "DokiBird",
         types: ["Dragon", "Fighting"],
         gender: "F",
@@ -306,4 +306,25 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         heightm: 1.60,
         weightkg: 106.7,
    },
+	chibidoki: {
+        num: -1029,
+        name: "Chibidoki",
+        types: ["Dragon, "Fairy"],
+        gender: "F",
+        baseStats: { hp: 105 atk: 90 def: 100, spa: 80, spd: 65, spe: 40 },
+        abilities: { 0: " ", 1: "Punk Rock", H: "Moxie" },
+        heightm: 1.52,
+        weightkg: 45,
+    },
+	meowzarts: {
+        num: -1030,
+        name: "Meowz",
+        types: ["Normal, "Ice"],
+        gender: "F",
+        baseStats: { hp: 95 atk: 95 def: 65, spa: 60, spd: 60, spe: 115 },
+        abilities: { 0: "Fluffy", 1: "Quick Draw", H: " " },
+        heightm: 1.45,
+        weightkg: 40.00,
+    },
+
 }

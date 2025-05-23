@@ -1664,7 +1664,9 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 		learnset: {
 			fbomb: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			quickattack: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-
+			accelerock: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			agility: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			assurance: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
 	fuwamoco: {
@@ -1674,6 +1676,18 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 		},
 	},
 	dokibird: {
+		learnset: {
+
+
+		},
+	},
+	chibidoki: {
+		learnset: {
+
+
+		},
+	},
+	meowzarts: {
 		learnset: {
 
 

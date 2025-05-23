@@ -115,4 +115,12 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
+	chibidoki: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	meowzarts: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
 }
