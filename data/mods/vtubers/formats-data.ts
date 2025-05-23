@@ -123,4 +123,9 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
+//not vtubers
+	sixln: {
+		isNonstandard: "Custom",
+		tier: "Other",
+	},
 }

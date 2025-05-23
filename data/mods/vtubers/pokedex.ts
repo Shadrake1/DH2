@@ -327,4 +327,17 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         weightkg: 40.00,
     },
 
+
+// not vtubers
+		sixln: {
+			num: -2000,
+			name: "Six",
+			types: ["Ghost","Normal"],
+			gender: "F",
+			baseStats: { hp: 80, atk: 60, def: 80, spa: 120, spd: 90, spe: 110 },
+	//		baseStats: { hp: 56, atk: 42, def: 56, spa: 84, spd: 63, spe: 77 },
+         abilities: { 0: "Soul-Heart", 1: "Limber", H: "Soul Gauge" },
+         heightm: 1.23,
+         weightkg: 20.00,
+    },
 }

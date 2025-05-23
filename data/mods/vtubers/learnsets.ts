@@ -1693,4 +1693,53 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 
 		},
 	},
+
+//not vtubers
+		sixln: {
+			learnset: {
+//Weak - Physical
+holdback: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+struggle: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+scratch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+cut: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+//Weak - Dark
+// feast: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+
+//Medium - Physical
+slash: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+megapunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+facade: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+chipaway: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+//Medium - Dark
+bite: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+nightslash: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+falsesurrender: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+//Medium-Ghost
+shadowpunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+shadowclaw: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+
+//Strong - Physical
+hyperdrill: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+ragingbull: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+bodyslam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+//Strong - Ghost
+spiritshackle: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+
+//OP - Physical (will need to custom last resort and horn drill)
+thrash: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+lastresort: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+horndrill: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+//OP - Ghost (custom Soul Rip)
+shadowforce: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+
+			},
+	},
 }
