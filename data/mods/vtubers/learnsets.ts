@@ -1667,6 +1667,52 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			accelerock: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			agility: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			assurance: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			axekick: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			batonpass: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			beatup: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bestow: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bite: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bodyslam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			boneclub: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bounce: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			bulletpunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			camouflage: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			captivate: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			charm: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			dig: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			dizzypunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			doubleteam: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			doubleedge: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			drillrun: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			dynamicpunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			extremespeed: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			fakeout: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			faketears: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			falsesurrender: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			feint: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			finalgambit: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			firepunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			flail: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			flatter: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			fling: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			followme: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			foulplay: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			frustration: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			gigaimpact: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			hiddenpower: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			irontail: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			jumpkick: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			knockoff: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			lowkick: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			machpunch: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			minimize: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			mudslap: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			nastyplot: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			playrough: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			powertrip: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			present: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			protect: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
+			quickattack: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 		},
 	},
 	fuwamoco: {
@@ -1688,6 +1734,30 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 		},
 	},
 	meowzarts: {
+		learnset: {
+
+
+		},
+	},
+	kyarashard: {
+		learnset: {
+
+
+		},
+	},
+	kosekibijou: {
+		learnset: {
+
+
+		},
+	},
+	megalodonvt: {
+		learnset: {
+
+
+		},
+	},
+	gigimurin: {
 		learnset: {
 
 

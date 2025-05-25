@@ -326,6 +326,46 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         heightm: 1.45,
         weightkg: 40.00,
     },
+	kyarashard: {
+        num: -1031,
+        name: "KyaraShard",
+        types: ["Fairy, "Fire"],
+        gender: "F",
+        baseStats: { hp: 90 atk: 40 def: 90, spa: 70, spd: 90, spe: 90 },
+        abilities: { 0: "Cute Charm", 1: "Magic Bounce", H: "Regenerator" }, //change some stuff, keep Cute Charm
+        heightm: 1.55,
+        weightkg: 39,
+    },
+   kosekibijou: {
+        num: -1032,
+        name: "Koseki Bijou",
+        types: ["Rock, "Fairy"],
+        gender: "F",
+        baseStats: { hp: 85, atk: 115, def: 130, spa: 50, spd: 75, spe: 60 },
+        abilities: { 0: "Solid Rock", 1: “Levitate”, H: "Queenly Majesty" },
+        heightm: 1.40,
+        weightkg: 30.16,
+    },
+	megalodonvt: {
+        num: -1033,
+        name: "MegalodonVT",
+        types: ["Water, "Fairy"], //Steel? Research
+        gender: "F",
+        baseStats: { hp: 95, atk: 102, def: 90, spa: 70, spd: 60, spe: 90 },
+        abilities: { 0: "Swift Swim", 1: “Strong Jaw”, H: " " }, //Primodial Sea?
+        heightm: 2.9,
+        weightkg: 85.2,
+    },
+	gigimurin: {
+        num: -1034,
+        name: "GiGi Murin",
+        types: ["Fighting, "Steel"],
+        gender: "F",
+        baseStats: { hp: 75, atk: 125, def: 65, spa: 40 spd: 100, spe: 95 },
+        abilities: { 0: "Iron Fist", 1: "Guts", H: "Prankster" },
+        heightm: 1.53,
+        weightkg: 43.27,
+    }, 
 
 
 // not vtubers

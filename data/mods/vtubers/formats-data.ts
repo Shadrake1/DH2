@@ -123,6 +123,23 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Vtuber",
 	},
+	kyarashard: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	kosekibijou: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	megalodonvt: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+	gigimurin: {
+		isNonstandard: "Custom",
+		tier: "Vtuber",
+	},
+
 //not vtubers
 	sixln: {
 		isNonstandard: "Custom",
