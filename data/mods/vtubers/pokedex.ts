@@ -309,7 +309,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	chibidoki: {
         num: -1029,
         name: "Chibidoki",
-        types: ["Dragon, "Fairy"],
+        types: ["Dragon", "Fairy"],
         gender: "F",
         baseStats: { hp: 105 atk: 90 def: 100, spa: 80, spd: 65, spe: 40 },
         abilities: { 0: " ", 1: "Punk Rock", H: "Moxie" },
