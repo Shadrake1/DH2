@@ -1712,7 +1712,6 @@ export const Learnsets: { [k: string]: LearnsetData } = {
 			powertrip: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			present: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			protect: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
-			quickattack: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			rage: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			rest: ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],
 			"return": ["9L5", "8L5", "7L5", "6L5", "5L5", "4L5", "3L5",],

@@ -215,4 +215,4 @@ export const Formats: FormatList = [
 		},
 	},
 	*/
-];
+;

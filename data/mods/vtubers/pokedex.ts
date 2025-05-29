@@ -301,7 +301,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         name: "DokiBird",
         types: ["Dragon", "Fighting"],
         gender: "F",
-        baseStats: { hp: 82 atk: 70 def: 75, spa: 90, spd: 80, spe: 101 },
+        baseStats: { hp: 82, atk: 70, def: 75, spa: 90, spd: 80, spe: 101 },
         abilities: { 0: "Compound Eyes", 1: "Sniper", H: "Early Bird" },
         heightm: 1.60,
         weightkg: 106.7,
