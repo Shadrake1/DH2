@@ -127,7 +127,7 @@ export const Formats: FormatList = [
 				}
 			}
 		}
-	}, // <- Added missing closing brace and comma here
+	}, 
 	{
 		name: "Random Free For All",
 		desc: 'vtubers only',
@@ -148,7 +148,7 @@ export const Formats: FormatList = [
 				}
 			}
 		}
-	}, // <- Added missing closing brace and comma here
+	}, 
 	///////////////////////////////////////////////////////////////
 	///////////////////// Vtubers + Pokemon ////////////////////////////
 	///////////////////////////////////////////////////////////////

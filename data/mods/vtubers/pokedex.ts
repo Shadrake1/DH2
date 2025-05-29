@@ -86,7 +86,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		types: ["Normal"],
 		gender: "F",
 		baseStats: { hp: 80, atk: 85, def: 70, spa: 85, spd: 53, spe: 107 },
-		abilities: { 0: "Parental Bond", 1: "Fur Coat", H: "Unburden" },
+		abilities: { 0: "Dazzling", 1: "Fur Coat", H: "Unburden" },
 		heightm: 1.41,
 		weightkg: 66.00,
 	},
