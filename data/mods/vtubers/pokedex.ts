@@ -352,7 +352,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         types: ["Water", "Steel"], //Steel? Research
         gender: "F",
         baseStats: { hp: 95, atk: 102, def: 90, spa: 70, spd: 60, spe: 90 },
-        abilities: { 0: "Swift Swim", 1: “Strong Jaw”, H: " " }, //Primodial Sea?
+        abilities: { 0: "Swift Swim", 1: "Strong Jaw", H: " " }, //Primodial Sea?
         heightm: 2.9,
         weightkg: 85.2,
     },
