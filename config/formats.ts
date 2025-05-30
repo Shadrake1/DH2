@@ -64,7 +64,7 @@ export const Formats: FormatList = [
 				}
 			}
 		}
-	}, // <- Added missing cl
+	}, 
 	{
 		name: "Multi Battle",
 		desc: 'vtubers only',
@@ -150,33 +150,13 @@ export const Formats: FormatList = [
 		}
 	}, 
 	///////////////////////////////////////////////////////////////
-	///////////////////// Vtubers + Pokemon ////////////////////////////
+	///////////////////// Vtubers + Pokemon ///////////////////////
 	///////////////////////////////////////////////////////////////
 	{
 		section: "Vtubers + Pokemon",
 		column: 2,
 		// name: "vtuberspluspokemon",
 	},
-	{
-		name: "Placeholder",
-		desc: 'vtubers plus pokemon',
-		mod: 'vtubers',
-		gameType: 'freeforall',
-		ruleset: [
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
-		],
-		onValidateTeam(team, format) {
-			/**@type {{[k: string]: true}}*/
-			let speciesTable = {};
-			let allowedTiers = ['Vtuber'];
-			for (const set of team) {
-				let template = this.dex.species.get(set.species);
-				if (!allowedTiers.includes(template.tier)) {
-					return [set.species + ' is not in Vtubers.'];
-				}
-			}
-		}
-	}, 
 	///////////////////////////////////////////////////////////////
 	///////////////////// Miscellaneous ///////////////////////////
 	///////////////////////////////////////////////////////////////
