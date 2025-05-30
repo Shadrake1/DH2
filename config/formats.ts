@@ -31,7 +31,7 @@ export const Formats: FormatList = [
 		desc: 'vtubers only',
 		mod: 'vtubers',
 		ruleset: [
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
+		'Standard', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
 		],
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
@@ -51,7 +51,7 @@ export const Formats: FormatList = [
 		gameType: 'doubles',
 		mod: 'vtubers',
 		ruleset: [
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
+		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
 		],
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
@@ -72,8 +72,7 @@ export const Formats: FormatList = [
 		mod: 'vtubers',
 		ruleset: [
 		'Max Team Size = 4',
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
-		],
+		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
 			let speciesTable = {};
@@ -94,7 +93,7 @@ export const Formats: FormatList = [
 		mod: 'vtubers',
 		ruleset: [
 		'Max Team Size = 4',
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
+		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
 		],
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
@@ -114,7 +113,7 @@ export const Formats: FormatList = [
 		mod: 'vtubers',
 		gameType: 'freeforall',
 		ruleset: [
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
+		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
 		],
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
@@ -135,8 +134,7 @@ export const Formats: FormatList = [
 		team: 'random',
 		gameType: 'freeforall',
 		ruleset: [
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
-		],
+		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
 			let speciesTable = {};
@@ -157,6 +155,26 @@ export const Formats: FormatList = [
 		column: 2,
 		// name: "vtuberspluspokemon",
 	},
+	{
+		name: "Placeholder",
+		desc: 'vtubers plus pokemon',
+		mod: 'vtubers',
+		gameType: 'freeforall',
+		ruleset: [
+		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod', 'Sleep Clause Mod', 'Species Clause', 'Evasion Clause'
+		],
+		onValidateTeam(team, format) {
+			/**@type {{[k: string]: true}}*/
+			let speciesTable = {};
+			let allowedTiers = ['Vtuber'];
+			for (const set of team) {
+				let template = this.dex.species.get(set.species);
+				if (!allowedTiers.includes(template.tier)) {
+					return [set.species + ' is not in Vtubers.'];
+				}
+			}
+		}
+	}, 
 	///////////////////////////////////////////////////////////////
 	///////////////////// Miscellaneous ///////////////////////////
 	///////////////////////////////////////////////////////////////

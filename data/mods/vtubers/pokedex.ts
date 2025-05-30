@@ -318,7 +318,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
     },
 	meowzarts: {
         num: -1030,
-        name: "Meowz",
+        name: "Meowzarts",
         types: ["Normal", "Ice"],
         gender: "F",
         baseStats: { hp: 95, atk: 95, def: 65, spa: 60, spd: 60, spe: 115 },
