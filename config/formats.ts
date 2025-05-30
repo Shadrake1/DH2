@@ -136,6 +136,7 @@ export const Formats: FormatList = [
 		gameType: 'freeforall',
 		ruleset: [
 		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
+		],
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
 			let speciesTable = {};
