@@ -361,7 +361,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         name: "GiGi Murin",
         types: ["Fighting", "Steel"],
         gender: "F",
-        baseStats: { hp: 75, atk: 125, def: 65, spa: 40 spd: 100, spe: 95 },
+        baseStats: { hp: 75, atk: 125, def: 65, spa: 40, spd: 100, spe: 95 },
         abilities: { 0: "Iron Fist", 1: "Guts", H: "Prankster" },
         heightm: 1.53,
         weightkg: 43.27,
