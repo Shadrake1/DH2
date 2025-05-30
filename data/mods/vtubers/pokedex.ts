@@ -311,7 +311,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         name: "Chibidoki",
         types: ["Dragon", "Fairy"],
         gender: "F",
-        baseStats: { hp: 105 atk: 90 def: 100, spa: 80, spd: 65, spe: 40 },
+        baseStats: { hp: 105, atk: 90, def: 100, spa: 80, spd: 65, spe: 40 },
         abilities: { 0: " ", 1: "Punk Rock", H: "Moxie" },
         heightm: 1.52,
         weightkg: 45,
@@ -321,17 +321,17 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         name: "Meowz",
         types: ["Normal, "Ice"],
         gender: "F",
-        baseStats: { hp: 95 atk: 95 def: 65, spa: 60, spd: 60, spe: 115 },
-        abilities: { 0: "Fluffy", 1: "Quick Draw", H: " " },
+        baseStats: { hp: 95, atk: 95, def: 65, spa: 60, spd: 60, spe: 115 },
+        abilities: { 0: "Fluffy", 1: "Quick Draw", H: "Refridgerate" },
         heightm: 1.45,
         weightkg: 40.00,
     },
 	kyarashard: {
         num: -1031,
         name: "KyaraShard",
-        types: ["Fairy, "Fire"],
+        types: ["Fairy", "Fire"],
         gender: "F",
-        baseStats: { hp: 90 atk: 40 def: 90, spa: 70, spd: 90, spe: 90 },
+        baseStats: { hp: 90, atk: 40, def: 90, spa: 70, spd: 90, spe: 90 },
         abilities: { 0: "Cute Charm", 1: "Magic Bounce", H: "Regenerator" }, //change some stuff, keep Cute Charm
         heightm: 1.55,
         weightkg: 39,
@@ -339,7 +339,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
    kosekibijou: {
         num: -1032,
         name: "Koseki Bijou",
-        types: ["Rock, "Fairy"],
+        types: ["Rock", "Fairy"],
         gender: "F",
         baseStats: { hp: 85, atk: 115, def: 130, spa: 50, spd: 75, spe: 60 },
         abilities: { 0: "Solid Rock", 1: “Levitate”, H: "Queenly Majesty" },
@@ -349,7 +349,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	megalodonvt: {
         num: -1033,
         name: "MegalodonVT",
-        types: ["Water, "Fairy"], //Steel? Research
+        types: ["Water", "Steel"], //Steel? Research
         gender: "F",
         baseStats: { hp: 95, atk: 102, def: 90, spa: 70, spd: 60, spe: 90 },
         abilities: { 0: "Swift Swim", 1: “Strong Jaw”, H: " " }, //Primodial Sea?
@@ -359,7 +359,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	gigimurin: {
         num: -1034,
         name: "GiGi Murin",
-        types: ["Fighting, "Steel"],
+        types: ["Fighting", "Steel"],
         gender: "F",
         baseStats: { hp: 75, atk: 125, def: 65, spa: 40 spd: 100, spe: 95 },
         abilities: { 0: "Iron Fist", 1: "Guts", H: "Prankster" },
