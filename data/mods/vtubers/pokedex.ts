@@ -342,7 +342,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
         types: ["Rock", "Fairy"],
         gender: "F",
         baseStats: { hp: 85, atk: 115, def: 130, spa: 50, spd: 75, spe: 60 },
-        abilities: { 0: "Solid Rock", 1: “Levitate”, H: "Queenly Majesty" },
+        abilities: { 0: "Solid Rock", 1: "Levitate”, H: "Queenly Majesty" },
         heightm: 1.40,
         weightkg: 30.16,
     },

@@ -196,13 +196,12 @@ export const Formats: FormatList = [
 	// End
 	
 	//placeholder
-	/*
 	{
 		name: "Vtubers + Pokemon",
 		mod: 'vtubers',
 		desc: `vtubers and pokemon`,
 		ruleset: ['Standard', 'Data Mod'],
-		teambuilderFormat: 'National Dex', //uncomment if your mod is natdex
+		//teambuilderFormat: 'National Dex', //uncomment if your mod is natdex
 		onValidateTeam(team, format) {
 			let speciesTable = {};
 			let allowedTiers = [''];
@@ -214,5 +213,4 @@ export const Formats: FormatList = [
 			}
 		},
 	},
-	*/
 ];
