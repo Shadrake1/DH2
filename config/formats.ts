@@ -72,7 +72,7 @@ export const Formats: FormatList = [
 		mod: 'vtubers',
 		ruleset: [
 		'Max Team Size = 4',
-		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod'
+		'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Terastal Clause', 'Data Mod']
 		onValidateTeam(team, format) {
 			/**@type {{[k: string]: true}}*/
 			let speciesTable = {};
