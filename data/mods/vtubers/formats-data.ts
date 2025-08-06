@@ -145,4 +145,8 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		isNonstandard: "Custom",
 		tier: "Other",
 	},
+	shoppingcart: {
+		isNonstandard: "Custom",
+		tier: "Other",
+	},
 }
